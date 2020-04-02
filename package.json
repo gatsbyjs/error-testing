@@ -1,0 +1,17 @@
+{
+  "name": "error-testing",
+  "private": true,
+  "version": "1.0.0",
+  "license": "MIT",
+  "workspaces": [
+    "sites/**",
+    "cli"
+  ],
+  "scripts": {
+    "start": "node ./cli/index.js"
+  },
+  "dependencies": {
+    "enquirer": "^2.3.4",
+    "execa": "^4.0.0"
+  }
+}
