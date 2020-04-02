@@ -20,6 +20,8 @@ yarn start
 
 ## Adding a new error
 
-Create a new project based on the [hello-world starter](https://github.com/gatsbyjs/gatsby-starter-hello-world) or copy/paste one of the existing projects inside `./sites` to a new folder inside `./sites` with the name being an ID from the [errormap][errormap].
+Create a new project based on the [hello-world starter](https://github.com/gatsbyjs/gatsby-starter-hello-world) or copy/paste one of the existing projects inside `./sites` to a new folder inside `./sites` with the name being an ID from the [errormap][errormap]. Make sure to run a `yarn install` after adding/copying a site.
+
+You'll also need to add a new option to the CLI inside `./cli/index.js` with the `name` as the ID, `message` as the longer description.
 
 [errormap]: https://github.com/gatsbyjs/gatsby/blob/master/packages/gatsby-cli/src/structured-errors/error-map.ts
