@@ -26,7 +26,9 @@ Choose one of the testing sites. Also open this repository in your favorite code
 
 **Note: This requires an account on CodeSandbox**
 
-Click on the Edit on CodeSandbox, press **Fork** and let CodeSandbox do its thing. On the right side there is the **Browser** window and below that the **Terminal, Console, Problems** tabs. Click on **Terminal** and then on the **+** sign. You now should have two tabs (`yarn start` and `/bin/bash`). The `/bin/bash` one should be automatically selected and a new terminal window appeared. Type `yarn begin` + <kbd>Enter</kbd>.
+Click on the **Edit on CodeSandbox** button, press **Fork** and let CodeSandbox do its thing. On the right side there is the **Browser** window and below that the **Terminal, Console, Problems** tabs. Click on **Terminal** and then on the **+** sign. You now should have two tabs (`yarn start` and `/bin/bash`). The `/bin/bash` one should be automatically selected and a new terminal window appeared. Type `yarn begin` + <kbd>Enter</kbd>.
+
+Now you're in the same state as locally — choose the correct folder inside `sites` and try to solve your error :)
 
 ## Adding a new error
 
