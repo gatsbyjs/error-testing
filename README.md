@@ -2,6 +2,8 @@
 
 Gatsby has [structured errors][errormap] with specific IDs. With this suite you can test certain error messages directly with a test project, e.g. to see if the error message helps with solving the problem.
 
+[![Edit error-testing](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/gatsbyjs/error-testing/tree/master/?fontsize=14&hidenavigation=1&theme=dark)
+
 ## Usage
 
 Ensure that you have the latest LTS version of Node installed. Install [yarn](https://classic.yarnpkg.com/en/docs/install).
@@ -15,7 +17,7 @@ yarn install
 After a successful installation you can use the CLI:
 
 ```shell
-yarn start
+yarn begin
 ```
 
 ## Adding a new error

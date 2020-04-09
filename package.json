@@ -8,7 +8,7 @@
     "cli"
   ],
   "scripts": {
-    "start": "node ./cli/index.js",
+    "begin": "node ./cli/index.js",
     "format": "prettier --write '**/**/*.{js,jsx,json,md}'"
   },
   "dependencies": {
