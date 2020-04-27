@@ -11,7 +11,7 @@ export default ({ data }) => (
 export const query = graphql`
   {
     site {
-      buildTime(length: 10)
+      buildTime(dateFormat: "DD.MM.YYYY")
     }
   }
 `;
