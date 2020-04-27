@@ -10,7 +10,7 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
-    "gatsby": "^2.19.45",
+    "gatsby": "2.20.32-cli-ux.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
   }
